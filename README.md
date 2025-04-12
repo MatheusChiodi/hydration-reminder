@@ -1,52 +1,52 @@
-# 💧 Hydration Reminder — Sua extensão de pausas saudáveis no VSCode
+# 💧 Hydration Reminder — Your healthy break extension for VSCode
 
-> Cuide do seu corpo enquanto sua mente cria.  
-> **Hydration Reminder** é uma extensão simples e eficaz que lembra você de se hidratar, alongar e fazer pausas estratégicas durante longas sessões de codificação.
-
----
-
-## ✨ Funcionalidades principais
-
-- ⏱️ **Monitora sua atividade de digitação** em tempo real
-- 💧 **Exibe um alerta após 1 hora** de codificação contínua
-- 💤 **Reseta automaticamente** após 10 minutos de inatividade
-- 🔔 **Notificações interativas** com mensagens motivadoras
-- 🖥️ **Status visível na barra inferior** do VSCode
-- 🟢 **Modo ativar/desativar com um clique**
+> Take care of your body while your mind creates.  
+> **Hydration Reminder** is a simple and effective extension that reminds you to hydrate, stretch, and take strategic breaks during long coding sessions.
 
 ---
 
-## 📸 Exemplo de alerta
+## ✨ Key Features
+
+- ⏱️ **Monitors your typing activity** in real time
+- 💧 **Displays an alert after 1 hour** of continuous coding
+- 💤 **Automatically resets** after 10 minutes of inactivity
+- 🔔 **Interactive notifications** with motivational messages
+- 🖥️ **Visible status in the VSCode bottom bar**
+- 🟢 **Toggle on/off mode with one click**
+
+---
+
+## 📸 Alert Example
 
 ```
-💧 *Hora da pausa!*
-Você está codando há 1 hora sem parar.
+💧 *Break time!*
+You’ve been coding non-stop for 1 hour.
 ```
 
-Opções interativas:
-- ✅ Já fiz
-- ⏳ Me lembra depois
+Interactive options:
+- ✅ Done
+- ⏳ Remind me later
 
 ---
 
-## 🧪 Como funciona
+## 🧪 How it works
 
-- Ativada automaticamente ao abrir o VSCode
-- Registra o tempo enquanto você digita
-- Reinicia o ciclo após detectar inatividade
-- Permite alternar entre **ativo/inativo** diretamente pela barra de status
+- Automatically activates when VSCode is opened
+- Tracks your typing time
+- Resets the timer after detecting inactivity
+- Allows toggling between **active/inactive** directly from the status bar
 
 ---
 
-## 🚀 Instalação
+## 🚀 Installation
 
-### Via Marketplace (em breve)
-> Busque por `Hydration Reminder` na aba de extensões do VSCode.
+### Via Marketplace (coming soon)
+> Search for `Hydration Reminder` in the VSCode Extensions tab.
 
-### Instalação manual (.vsix)
+### Manual Installation (.vsix)
 
-1. Baixe o arquivo `.vsix`
-2. Execute o comando:
+1. Download the `.vsix` file
+2. Run the command:
 
 ```bash
 code --install-extension hydration-reminder-1.0.0.vsix
@@ -54,9 +54,9 @@ code --install-extension hydration-reminder-1.0.0.vsix
 
 ---
 
-## ⚙️ Configurações disponíveis
+## ⚙️ Available Settings
 
-Você pode personalizar o tempo dos lembretes:
+You can customize the reminder timing:
 
 ```json
 {
@@ -67,14 +67,14 @@ Você pode personalizar o tempo dos lembretes:
 
 ---
 
-## 🙋‍♂️ Autor
+## 🙋‍♂️ Author
 
-Desenvolvido com foco em saúde, produtividade e bom humor por  
+Developed with focus on health, productivity, and good humor by  
 [Matheus Chiodi](https://github.com/matheuschiodi) • [@MChiodiDev](https://www.youtube.com/@MChiodiDev)
 
 ---
 
-## ☕ Contribua
+## ☕ Contribute
 
-Se essa extensão te ajudou, considere deixar uma estrela no GitHub ⭐  
-Sugestões, melhorias ou bugs? Fique à vontade para abrir uma issue!
+If this extension helped you, consider giving it a GitHub star ⭐  
+Suggestions, improvements, or bugs? Feel free to open an issue!
