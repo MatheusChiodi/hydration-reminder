@@ -1,8 +1,8 @@
 {
   "name": "hydration-reminder",
   "displayName": "Hydration Reminder",
-  "description": "Extensão que te lembra de fazer pausas saudáveis enquanto programa.",
-  "version": "1.0.3",
+  "description": "An extension that takes care of your health while you code. Receive smart alerts to drink water, stretch, and stay focused without compromising your well-being.",
+  "version": "1.0.4",
   "publisher": "MChiodi",
   "license": "MIT",
   "engines": {
@@ -19,24 +19,24 @@
     "commands": [
       {
         "command": "hydration-reminder.start",
-        "title": "Iniciar lembretes"
+        "title": "Start Reminders"
       }
     ],
     "configuration": {
       "type": "object",
-      "title": "Configurações do Hydration Reminder",
+      "title": "Hydration Reminder Settings",
       "properties": {
         "hydradev.alertTimeInMinutes": {
           "type": "number",
           "default": 60,
           "minimum": 5,
-          "description": "Tempo em minutos até o lembrete aparecer."
+          "description": "Time in minutes before a new reminder appears."
         },
         "hydradev.idleResetTime": {
           "type": "number",
           "default": 10,
           "minimum": 1,
-          "description": "Tempo de inatividade (min) para reiniciar o contador."
+          "description": "Idle time (in minutes) to reset the timer."
         }
       }
     }
